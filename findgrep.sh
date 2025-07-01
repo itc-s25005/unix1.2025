@@ -2,6 +2,7 @@
 
 usage()
 {
+<<<<<<< HEAD
   # シェルスクリプトのファイル名を取得
   local script_name=$(basename $0)
   # ヒヤドキュメントでヘルプを表示
