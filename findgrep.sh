@@ -49,3 +49,4 @@ fi
 # -H : print the file name
 
 find "$directory" -type f -name "$name" | xargs grep -nH "$pattern"
+
