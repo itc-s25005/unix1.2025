@@ -28,10 +28,6 @@ pattern=$1
 directory=$2
 name=$3
 
-pattern=$1
-directory=$2
-name=$3
-
 # 第2引数(起点ディレクトリ)が空文字列ならば、
 # デフォルト値として . (カレントディレクトリ)を設定
 if [ -z "$directory" ]; then
